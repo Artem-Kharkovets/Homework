@@ -1,4 +1,5 @@
-Kharkovets_DZ№07.py - 
-Kharkovets_DZ№08.py - домашнее задание №8, "слова палиндромы"
-Kharkovets_DZ№09.py - 
-Kharkovets_DZ№10.py - 
+Kharkovets_DZ_07-1.py - домашнее задание №7-1, "середина строки"
+Kharkovets_DZ_07-2.py - домашнее задание №7-2, "середина слова"
+Kharkovets_DZ_08.py - домашнее задание №8, "слова палиндромы"
+Kharkovets_DZ_09.py - домашнее задание №9, "посчитать номер столетия"
+
