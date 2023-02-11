@@ -18,7 +18,8 @@
 #  s9 -Для нуля нет результатов, перезапустите программу!
 #  s9  No results for null, restart the program!
 
-s1 = "fibonacci numbers."
+s1 = """
+fibonacci numbers."""
 s2 = """    
     The program displays the Fibonacci numbers with
     the number of numbers you need in the sequence.
@@ -29,7 +30,6 @@ s4 = "Enter a variable:"
 s6 = "You have entered NOT a natural number, restart the program!"
 s7 = """
     Result:"""
-s8 = "enter the number"
 s9 = "No results for null, restart the program!"
 
 print(s1.upper())
@@ -42,6 +42,7 @@ x2 = 1
 
 if n.isdigit():
     n1 = int(n)
+    print(s7)
     print(f"Fibonacci numbers for \'{n}\':")
     if n1 == 0:
         print(s9)
@@ -52,8 +53,8 @@ if n.isdigit():
             if n1 == 2:
                 print(f"{x1}, {x2}.")
             else:
-                s10 =(f"{x1}, {x2}")
-                print(s10, end=', ')
+                s8 =(f"{x1}, {x2}")
+                print(s8, end=', ')
                 i = 2
                 while n1 > i:
                     x3 = x1 + x2
