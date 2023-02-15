@@ -1,31 +1,12 @@
-# ДЗ 12. Замена символов в строке
-# Дана строка. Замените в данной строке все вхождения буквы 'h' на букву 'H'
-# кроме первого и последнего вхождения.
-# Пример:
-# "hello hill house horse" --> "hello Hill House horse"
-# Подсказка: задачу можно решить без циклов, вам могут понадобиться срезы,
-# методы find(), rfind(), replace()
-
 #  s1= -замена символов в строке
-#  s1=  replacing characters in a string
 #  s2= -Программа заменяет все вхождения буквы «h» в тексте,
 #       который вы вводите, на букву «H» кроме первого и последнего вхождения.
 #       Текст можно вводить со всеми грамматическими символами.
-#       Если первые и последние буквы "H" в верхнем регистре, то первая и
-#       и последняя буквы "h" будут выделены одинарными кавычками 'h'.
-#  s2=  The program replaces all occurrences of the letter "h" in the text
-#       you enter with the letter "H", except for the first and last
-#       occurrence. Text can be entered with all grammar symbols.
 #  s3= -введите текст
-#  s3=  enter text
 #  s4= -Результат
-#  s4=  Result
 #  s5= -В тексте нет ни одной буквы "h". Попробуйте ещё!
-#  s5=  There is not a single "h" in the text. Try again!
 #  s6= -В тексте одна буква "h".
-#  s6=  There is only one "h" in the text.
 #  s7= -В тексте две буквы "h".
-#  s7=  There are two letters "h" in the text.
 
 s1 = """
     replacing characters in a string"""
