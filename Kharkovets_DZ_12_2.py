@@ -14,8 +14,6 @@ s2 = """
         The program replaces all occurrences of the letter "h" in the text
         you enter with the letter "H", except for the first and last
         occurrence. Text can be entered with all grammar symbols.
-        If the first and last letters "H" are uppercase, then the first
-        and last letters "h" will be enclosed in single quotes 'h'.
      """
 s3 = "enter text: "
 s4 = """
