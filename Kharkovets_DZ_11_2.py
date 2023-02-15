@@ -49,8 +49,8 @@ si1 = 0  # сумма введенных чисел
 even1 = 0  # количество четных чисел
 odd1 = 0  # количество нечетных чисел
 max1 = 0
-min1 = 9 ** 100  # !!!если это значение min1 = 0 или min1 = si1, то minimum = 0
-                 # а если min1 = max1, то minimum = последней введенной цифре
+min1 = 0
+
 while True:
     d = input(s3)
     a = d.strip()
@@ -67,7 +67,7 @@ while True:
             max1 = a1
         else:
             max1 = max1
-        if a1 < min1:
+        if min1 > a1:
             min1 = a1
         else:
             min1 = min1
@@ -88,7 +88,7 @@ while True:
                 max1 = b2
             else:
                 max1 = max1
-            if b2 < min1:
+            if min1 > b2:
                 min1 = b2
             else:
                 min1 = min1
