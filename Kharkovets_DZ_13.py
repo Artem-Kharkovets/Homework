@@ -1,10 +1,28 @@
-#  ДЗ 13. Найти пересечение двух списков.
-#  Даны два списка s1 и s2. Создать третий список s3, который будет содержать
-#  только общие элементы из списков s1 и s2. Список s3 не должен содержать
-#  дубликатов. Вывести список s3 на экран в одну строчку.
-#  Пример:
-#  s1 = [1, 2, 3, 4, 5, 'six']
-#  s2 = [4, 5, 6, "six", 7, 8]
-#  Результат: [4, 5, 'six']
-#  Подсказка: Вам могут понадобиться вложенные циклы, in/not in
+# s1= -Пересечение двух списков
+# s2= -Даны два списка s1 и s2.Создать список s3, в котором будут содержаться
+#      только общие элементы из списков s1 и s2 без дубликатов.
+#      Вывести список s3 на экран в одну строчку.
+# s3= -Результат
 
+st1 = """
+        Intersection of two lists"""
+st2 = """
+  Two lists s1 and s2 are given. Create a list s3 that will only
+  contain common elements from lists s1 and s2 without duplicates. 
+  Display the list s3 on the screen in one line.
+        """
+s1 = [1, 2, 3, 4, 5, 'six']
+s2 = [4, 5, 6, "six", 7, 8]
+st3 = """
+  Result:"""
+
+print(st1.upper())
+print(st2)
+print("  s1 =", s1)
+print("  s2 =", s2)
+s3 = []
+
+for a in s1:
+    if a in s2 and a not in s3:
+        s3.append(a)
+print(st3, s3)
