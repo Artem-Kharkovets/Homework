@@ -23,6 +23,6 @@ print("  s2 =", s2)
 s3 = []
 
 for a in s1:
-    if a in s2 and a not in s3:
-        s3.append(a)
+    if a in s2 and a not in s3:  # <and a not in s3> в данной задаче
+        s3.append(a)             #  бесполезен, но для других списков - нужен
 print(st3, s3)
