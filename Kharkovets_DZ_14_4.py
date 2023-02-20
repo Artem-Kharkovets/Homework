@@ -34,14 +34,3 @@ for index, value in enumerate(s11):
     print(f"{s11[index]}+{s22[index]}", end=', ')
 print('\b\b')
 print(s3)
-#     b1 = index
-#     c1 = value
-#     for index, value in enumerate(s22):
-#         b2 = index
-#         c2 = value
-#         if b1 == b2:
-#             d = c1 + c2
-#             s3.append(d)
-#             print(f"{c1}+{c2}", end=', ')
-# print('\b\b')
-# print(s3)
