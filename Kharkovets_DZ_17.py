@@ -39,5 +39,3 @@ print(s3)
 
 print(t2)
 print(s4, b)
-
-
