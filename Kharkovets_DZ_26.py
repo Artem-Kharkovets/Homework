@@ -41,6 +41,7 @@ f.close()
 dict1 = {}
 file = open('lorem.txt', 'r')
 d1 = file.read().lower()
+file.close()
 #print('d1: ', type(d1), d1)
 
 d2 = re.sub(r'[^\w\s]', '', d1)
