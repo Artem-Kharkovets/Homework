@@ -30,6 +30,7 @@ movies = dict(list1)
 def old_film(dictionary):
     old = min(dictionary.items(), key=lambda x: x[1])  # перевод в tuple и ищем
     print(old[0])
+    return old
 
 
 old_film(movies)
