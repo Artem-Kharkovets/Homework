@@ -49,6 +49,7 @@ try:
                 matrix0[j2][r1-1-i2] = matrix[i2][j2]
         for m in matrix0:
             print(m)
+        return matrix0
 
     transpose()
 
