@@ -1,5 +1,7 @@
 # ДЗ 29. Реализовать Стек
 #
+#         КАЖЕТСЯ УЖЕ РАЗОБРАЛСЯ КАК КОМАНДУ return ИСПОЛЬЗОВАТЬ
+#
 # s1 - Реализация стека
 # s2 - Состояние стека
 # s3 - Введите данные
@@ -48,17 +50,18 @@ class Stack:
             print(s10, True)
         else:
             print(s10, False)
-        # return s10, False
+        return self._list1
 
     def peek(self):                     # 5 - возвращает элемент с верха стека
         if len(self._list1) > 0:
             print(s6, self._list1[-1])
         else:
             print(None)
-        # return None
+        return self._list1
 
     def push(self, item):          # 3 - добавляет новый элемент на верх стека
         self._list1.append(item)
+        return self._list1
 
     def pop(self):            # 4 - удаляет и возвращает элемент с верха стека
         if len(self._list1) > 0:
@@ -67,11 +70,11 @@ class Stack:
             self._list1.pop()
         else:
             print(None)
-        # return None
+        return self._list1
 
     def stack_state(self):                               # 1 - состояние стека
         print(s2, self._list1)
-        # return s2, self._list1
+        return self._list1
 
 
 new_stacke = Stack()
