@@ -45,17 +45,11 @@ class Stack:
 
     def empty(self):                              # 2 - проверка пустого стека
         if len(self._list1) == 0:
-            print(s10, True)
-        else:
-            print(s10, False)
-        return self._list1
+            return True
 
     def peek(self):                     # 5 - возвращает элемент с верха стека
         if len(self._list1) > 0:
-            print(s6, self._list1[-1])
-        else:
-            print(None)
-        return self._list1
+            return self._list1[-1]
 
     def push(self, item):          # 3 - добавляет новый элемент на верх стека
         self._list1.append(item)
@@ -63,15 +57,9 @@ class Stack:
 
     def pop(self):            # 4 - удаляет и возвращает элемент с верха стека
         if len(self._list1) > 0:
-            print(s5)
-            self.peek()
-            self._list1.pop()
-        else:
-            print(None)
-        return self._list1
+            return self._list1.pop()
 
     def stack_state(self):                               # 1 - состояние стека
-        print(s2, self._list1)
         return self._list1
 
 
@@ -96,13 +84,13 @@ while a1 != 0:
                     print(s7)
                     break
                 if a1 == 1:
-                    new_stacke.stack_state()
+                    print(s2, new_stacke.stack_state())
                 if a1 == 2:
-                    new_stacke.empty()
+                    print(s10, new_stacke.empty())
                 if a1 == 3:
                     print(s4)
                     new_stacke.push(input(s3))
                 if a1 == 4:
-                    new_stacke.pop()
+                    print(s5, new_stacke.pop())
                 if a1 == 5:
-                    new_stacke.peek()
+                    print(s6, new_stacke.peek())
